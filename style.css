@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(240, 240, 207);
+}
+
+#title {
+  text-align: center;
+  color: rgb(76, 33, 146);
+  font-size: 70px;
+}
+
+#game {
+  background-color: rgb(240, 240, 207);
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 32% 32% 32%;
+  grid-gap: 10px;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(171, 223, 224);
+  position: relative;
+  left: 4px;
+  top: 4px;
+  border-radius: 3px;
+}
+
+.box:hover {
+  background-color: rgb(221, 251, 252);
+  cursor: pointer;
+}
+
+.x img {
+  height: 100%;
+  width: 100%;
+}
+
+.o img {
+  height: 100%;
+  width: 100%;
+}
+
+#blurr {
+  display: none;
+  height: 500px;
+  width: 100%;
+  background-color: blue;
+}
